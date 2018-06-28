@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette');
+
+div { 
+  text-align: center; 
+}
+
+body {
+  font-family: 'Courgette', cursive;
+  background-color: white;
+  color: black;
+  background-image: url(https://data.whicdn.com/images/105765945/original.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  
+    
+}
+
