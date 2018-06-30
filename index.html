@@ -43,7 +43,82 @@
 </style>
 </head>
 <body>
- <html>
+  
+<div class="tab">
+ 
+  <button class="tablinks" onclick="openCity(event, 'Home')">Home</button>
+  <button class="tablinks" onclick="openCity(event, 'About the Author')">About the Author</button>
+  <button class="tablinks" onclick="openCity(event, 'Local News')">Local News</button>
+  <button class="tablinks" onclick="openCity(event, 'National News')">National News</button>
+  <button class="tablinks" onclick="openCity(event, 'World Events')">World Events</button>
+  <button class="tablinks" onclick="openCity(event, 'Book Reviews')">Book Reviews</button>
+  <button class="tablinks" onclick="openCity(event, 'Movie Reviews')">Movie Reviews</button>
+  <button class="tablinks" onclick="openCity(event, 'My Stories')">My Stories</button>
+  <button class="tablinks" onclick="openCity(event, 'Fake News')">Fake News..etc</button>
+</div>
+  
+
+ <div id="Home" class="tabcontent">
+  <h3>Home</h3>
+  <p>London is the capital city of England.</p>
+</div>
+
+<div id="About the Author" class="tabcontent">
+  <h3>About the Author</h3>
+  <p>London is the capital city of England.</p>
+</div>
+ 
+ <div id="Local News" class="tabcontent">
+  <h3>Local News</h3>
+  <p>London is the capital city of England.</p>
+</div>
+ 
+ <div id="National News" class="tabcontent">
+  <h3>National News</h3>
+  <p>London is the capital city of England.</p>
+</div>
+
+<div id="World Events" class="tabcontent">
+  <h3>World Events</h3>
+  <p>Paris is the capital of France.</p> 
+</div>
+
+<div id="Book Reviews" class="tabcontent">
+  <h3>Book Reviews</h3>
+  <p>Tokyo is the capital of Japan.</p>
+</div>
+ 
+ <div id="Movie Reviews" class="tabcontent">
+  <h3>Movie Reviews</h3>
+  <p>Tokyo is the capital of Japan.</p>
+</div>
+ 
+ <div id="My Stories" class="tabcontent">
+  <h3>My Stories</h3>
+  <p>Tokyo is the capital of Japan.</p>
+</div>
+ 
+ <div id="Fake News" class="tabcontent">
+  <h3>Fake News</h3>
+  <p>Tokyo is the capital of Japan.</p>
+</div>
+
+<script>
+function openCity(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+</script>
+ 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 body {
@@ -237,88 +312,11 @@ function showSlides(n) {
 }
 </script>
     
-</body>
-</html>
 
-
-  
-<div class="tab">
- 
-  <button class="tablinks" onclick="openCity(event, 'Home')">Home</button>
-  <button class="tablinks" onclick="openCity(event, 'About the Author')">About the Author</button>
-  <button class="tablinks" onclick="openCity(event, 'Local News')">Local News</button>
-  <button class="tablinks" onclick="openCity(event, 'National News')">National News</button>
-  <button class="tablinks" onclick="openCity(event, 'World Events')">World Events</button>
-  <button class="tablinks" onclick="openCity(event, 'Book Reviews')">Book Reviews</button>
-  <button class="tablinks" onclick="openCity(event, 'Movie Reviews')">Movie Reviews</button>
-  <button class="tablinks" onclick="openCity(event, 'My Stories')">My Stories</button>
-  <button class="tablinks" onclick="openCity(event, 'Fake News')">Fake News..etc</button>
-</div>
-  
-
- <div id="Home" class="tabcontent">
-  <h3>Home</h3>
-  <p>London is the capital city of England.</p>
-</div>
-
-<div id="About the Author" class="tabcontent">
-  <h3>About the Author</h3>
-  <p>London is the capital city of England.</p>
-</div>
- 
- <div id="Local News" class="tabcontent">
-  <h3>Local News</h3>
-  <p>London is the capital city of England.</p>
-</div>
- 
- <div id="National News" class="tabcontent">
-  <h3>National News</h3>
-  <p>London is the capital city of England.</p>
-</div>
-
-<div id="World Events" class="tabcontent">
-  <h3>World Events</h3>
-  <p>Paris is the capital of France.</p> 
-</div>
-
-<div id="Book Reviews" class="tabcontent">
-  <h3>Book Reviews</h3>
-  <p>Tokyo is the capital of Japan.</p>
-</div>
- 
- <div id="Movie Reviews" class="tabcontent">
-  <h3>Movie Reviews</h3>
-  <p>Tokyo is the capital of Japan.</p>
-</div>
- 
- <div id="My Stories" class="tabcontent">
-  <h3>My Stories</h3>
-  <p>Tokyo is the capital of Japan.</p>
-</div>
- 
- <div id="Fake News" class="tabcontent">
-  <h3>Fake News</h3>
-  <p>Tokyo is the capital of Japan.</p>
-</div>
-
-<script>
-function openCity(evt, cityName) {
-    var i, tabcontent, tablinks;
-    tabcontent = document.getElementsByClassName("tabcontent");
-    for (i = 0; i < tabcontent.length; i++) {
-        tabcontent[i].style.display = "none";
-    }
-    tablinks = document.getElementsByClassName("tablinks");
-    for (i = 0; i < tablinks.length; i++) {
-        tablinks[i].className = tablinks[i].className.replace(" active", "");
-    }
-    document.getElementById(cityName).style.display = "block";
-    evt.currentTarget.className += " active";
-}
-</script>
 
 
 <head>
+ </body>
 <meta charset="utf-8">
 
 
