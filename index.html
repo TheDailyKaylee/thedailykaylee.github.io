@@ -78,46 +78,6 @@
  <center><img src="https://d28y5daoc1t3a7.cloudfront.net/16/7409b0376811e88914cba6c8886a31/iphone-image.jpg" alt="Frodo" width="500" height="333"></center>
  <p>My goal for this website is to inform, entertain, and educate people of all ages from around the world. I will not only cover national/world events, but also local news. Want to know what's going on in your city or state? Check The Daily Kaylee to find out! I will also post links to various websites in which I thought were useful in writing my post. Hope you enjoy!  </p> 
 
-</div>
-<br>
-
-<div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span> 
-  <span class="dot" onclick="currentSlide(2)"></span> 
-  <span class="dot" onclick="currentSlide(3)"></span> 
-  <span class="dot" onclick="currentSlide(4)"></span> 
-</div>
-
-<script>
-var slideIndex = 1;
-showSlides(slideIndex);
-
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";  
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-}
-</script>
-     
-
  <center><b><p>My Favorites List </p></b></center>
   <center><p>Favorite COLOR: Green </p></center> 
   <center><p>Favorite BOOK: The Hobbit </p></center>
@@ -136,9 +96,9 @@ function showSlides(n) {
   <center><p>Favorite MARVEL CHARACTER: Scarlet Witch or Iron Man</p></center>
   <center><p>Favorite EXTRACURRICULAR: Model US Congress/UN or Girls Who Code</p></center>
 
+</div>
 
 
- </div>
 
 <div id="Local News" class="tabcontent">
   <h3>Local News</h3>
