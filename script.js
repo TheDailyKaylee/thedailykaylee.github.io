@@ -2,7 +2,7 @@
 function login() {
 var username = document.getElementById('username').value;
 var password =  document.getElementById('password').value;
-if ((username=='Kaylee'&& password=='WordsareMagic')||(username=='readmagic' && password=='frodo')||(username=='writemagic'&& password=='tolkien')){
+if ((username=='Klee'&& password=='wordsaremagic')||(username=='Mlee' && password=='magicmom')||(username=='Llee'&& password=='deftdad')||(username=='Dlaney'&& password=='hazelunicorn')||(username=='guest'&& password=='writing1')||(username=='jyen'&& password=='humanities102')||(username=='bwhipp'&& password=='humanities64')){
 window.location.href='index.html';
 }
 } 
