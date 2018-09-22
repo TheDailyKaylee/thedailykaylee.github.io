@@ -6,3 +6,11 @@ if ((username=='Klee'&& password=='wordsaremagic')||(username=='Mlee' && passwor
 window.location.href='index.html';
 }
 } 
+var likeCount = 0;
+
+function like() {
+    var likes = document.getElementById('likes');
+    likeCount += 1;
+    likes.innerHTML = 'Likes: ' + likeCount;
+}
+
