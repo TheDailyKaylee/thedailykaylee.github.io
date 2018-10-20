@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Your Personal Calculator Friend</title>
+  <script type="text/javascript">
+    
+    
+    
+    //This is a function to add two numbers
+    
+   
+    
+    function add(){
+       var name=document.getElementById('username').value;
+    document.getElementById('userhello').innerHTML='Hello '+name;
+      
+    var firstnumber= parseInt(document.getElementById('firstnumber').value);
+    var secondnumber=parseInt(document.getElementById('secondnumber').value);;
+    var result = firstnumber + secondnumber;
+      
+  
+         alert('The sum of '+ firstnumber+ ' and ' + secondnumber +' is: ' + result);
+      
+    } //This is the end of my function
+    
+ 
+    
+  
+  </script>
+</head>
+<body>
+ 
+  
+  <h1 id="userhello"> Hello </h1>
+     What's your name?<input type="text" placeholder="ex. Lily" id="username">
+    
+  <center><h2>I am Kocata, your own personal calculator friend and helper</h2></center>
+  
+
+
+  <br>
+    
+  <center> Enter First number: <input type ="text" placeholder="First number"id="firstnumber"></center>
+  
+  <br>
+  <br>
+  
+  <center>Enter Second number: <input type = "text" placeholder="Second number"id="secondnumber"></center>
+  
+  
+<br>
+  <br>
+  
+  
+  <center><input type="Submit" onclick="add()"></center>
+
+  <br>
+  <br>
+  <img src="https://us.123rf.com/450wm/cosmaa/cosmaa1606/cosmaa160600002/58452087-cartoon-smiling-electronic-calculator-with-hand-and-legs-character-for-education-or-finance-design.jpg?ver=6" alt="Italian Trulli">
+
+  </body>
+</html>
