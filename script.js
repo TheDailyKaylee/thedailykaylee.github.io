@@ -7,13 +7,6 @@ window.location.href='index.html';
 }
 } 
 
-function chatlogin() {
-var username = document.getElementById('uname').value;
-var password =  document.getElementById('pword').value;
-if ((username=='chatuname'&& password=='chatpword')||(username=='chatusername' && password=='chatpassword')||(username=='chatuser'&& password=='chatpass')||(username=='guest'&& password=='guestpassword')||(username=='guestusername'&& password=='guestpassword')||(username=='Klee'&& password=='Kleepassword')||(username=='Kaylee'&& password=='Daily')||(username=='Ella'&& password=='readingrules')){
-window.location.href='index.html';
-}
-} 
 
 
 
