@@ -1,0 +1,43 @@
+<body style="background-color:lightblue;">
+<p align="right"><a href="https://thedailykaylee.github.io/login">Log Out   </a></p><p> </p>
+
+
+ <h1>Sorry...</h1>
+  <p>As the Drawa hunter holds out his steel handcuffs for you, you bolt, taking off down the driveway and racing down the alley. After a couple minutes, you pause to rest. You think you lost him. Phew! Suddenly, the same hunter comes into view galloping on his horse along with other mounted cloaked drawas. You gasp. </p>
+  
+  <p> "Looks like jail time for you, sonny." He grabs your wrists and shove them into the steel cuffs. "Spending some time in Lyddia's private cells will be quite fun..." </p>
+  
+
+
+  <a href="https://thedailykaylee.github.io"><button class="block">Back to Home</button></a>
+ <br>
+ 
+ <b><p align="center"><a href="https://thedailykaylee.github.io/mysticals1"> Change your answer/Back to last page</a></p><p></p></b>
+ 
+
+  </body>
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.block {
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: dodgerblue;
+    color: black;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+}
+.block:hover {
+    background-color: aqua;
+    color: black;
+}
+</style>
+</head>
+
+</html>
