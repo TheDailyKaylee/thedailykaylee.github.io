@@ -1,4 +1,84 @@
-var CANVAS_SIZE = 600;
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>COSMOS BREAKOUT!</title>
+  </head>
+  <body>
+    <h1 class="tarragon" id="title">COSMOS BREAKOUT!</h1>
+  
+</script>
+    <h3> Press space to pause and press R to reset </h3>
+    <p>Click the button to display an alert box.</p>
+
+<button onclick="myFunction()"> Rules</button>
+
+<script>
+function myFunction() {
+    alert("Hello! Are you ready to play Cosmos Breakout? Enter your nickname and choose a ball color.");
+}
+</script>
+    
+    <h3>    </h3>
+    
+
+    <input id="nicknameInput" class="someMargin" type="text" placeholder="Enter a nickname..."></input>
+    <input id="ballColorInput" class="someMargin" type="text" placeholder="Enter your color..."></input>
+    <button class="someMargin" onclick="startClicked()">START</button>
+
+<h4> Go to this link to view the Regular Breakout: http://jsbin.com/xifoxayewa/1/edit?html,output </h4>
+    
+<h2 id="nicknameoutput" ></h2>
+    <canvas id="canvas"></canvas>
+    <h2 class="tarragon" id="score">SCORE: 0</h2>
+    <div id="highScores"></div>
+
+<style>
+  body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-image: url("https://thumb.grindnetworks.com/RUy31_2cIQYbbS7wsZMjlulNdQ4=/1200x0/filters:format(jpg):quality(80):max_bytes(500000):sharpen(0.2%2C1%2Cfalse):strip_exif():strip_icc()/https://www.adventuresportsnetwork.com/wp-content/uploads/2016/07/stars-feature-1.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+  
+  font-family: monospace;
+  
+    color: white;
+}
+
+h1 {
+    color: black;
+}
+
+
+canvas {
+  border: 10px solid black;
+  display: block;
+  border-bottom: 5px dashed paleturquoise;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Eso1524aArtist%E2%80%99s_impression_of_CR7_the_brightest_galaxy_in_the_early_Universe.jpg/1024px-Eso1524aArtist%E2%80%99s_impression_of_CR7_the_brightest_galaxy_in_the_early_Universe.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+}
+
+#title {
+  background-color: cyan;
+  text-align: center;
+  width: 100%;
+  height: 75px;
+  line-height: 75px;
+  font-size: 50px;
+}
+
+.someMargin {
+  margin-bottom: 30px;
+}
+</style>
+
+<script>
+  var CANVAS_SIZE = 600;
 var BLOCK_WIDTH = 75;
 var BLOCK_HEIGHT = 25;
 var PADDLE_WIDTH = 100;
@@ -307,3 +387,11 @@ var motion = (function () {
 })();
 
 motion.start();
+
+  
+  
+</script>
+
+ 
+  </body>
+</html>
